@@ -1,0 +1,1 @@
+# aspnet-template-with-auth
