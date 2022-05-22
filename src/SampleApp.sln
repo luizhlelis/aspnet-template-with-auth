@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Application", "SampleApp.Application\SampleApp.Application.csproj", "{C4FAAC8F-8537-45E1-838B-88AA964A58FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Test", "..\test\SampleApp.Test\SampleApp.Test.csproj", "{60FB1151-B505-405A-81B7-199D2DEC4DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Infrastructure", "SampleApp.Infrastructure\SampleApp.Infrastructure.csproj", "{957CB26E-AEB0-4192-AADF-A838A398536B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Web", "SampleApp.Web\SampleApp.Web.csproj", "{3D4380FE-F46F-4AF3-915E-A8082D4BE4CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66F5E4BD-8344-49F5-AC20-7B9D5BA9FE4D}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+		..\.gitignore = ..\.gitignore
+		.editorconfig = .editorconfig
+		Dockerfile = Dockerfile
+		docker-compose.yml = docker-compose.yml
+		Scripts\apply-existing-migrations.sh = Scripts\apply-existing-migrations.sh
+		Dockerfile.migrations = Dockerfile.migrations
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4FAAC8F-8537-45E1-838B-88AA964A58FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FAAC8F-8537-45E1-838B-88AA964A58FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FAAC8F-8537-45E1-838B-88AA964A58FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FAAC8F-8537-45E1-838B-88AA964A58FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FB1151-B505-405A-81B7-199D2DEC4DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FB1151-B505-405A-81B7-199D2DEC4DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FB1151-B505-405A-81B7-199D2DEC4DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FB1151-B505-405A-81B7-199D2DEC4DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957CB26E-AEB0-4192-AADF-A838A398536B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957CB26E-AEB0-4192-AADF-A838A398536B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957CB26E-AEB0-4192-AADF-A838A398536B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957CB26E-AEB0-4192-AADF-A838A398536B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D4380FE-F46F-4AF3-915E-A8082D4BE4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4380FE-F46F-4AF3-915E-A8082D4BE4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4380FE-F46F-4AF3-915E-A8082D4BE4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4380FE-F46F-4AF3-915E-A8082D4BE4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
