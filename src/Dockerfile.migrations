@@ -1,0 +1,11 @@
+FROM mcr.microsoft.com/dotnet/sdk:6.0
+
+# Install EF Core tools
+RUN dotnet tool install --global dotnet-ef --version 6.0
+
+WORKDIR /app
+
+ADD SampleApp.Web ./SampleApp.Web
+ADD SampleApp.Infrastructure ./SampleApp.Infrastructure
+ADD SampleApp.Application ./SampleApp.Application
+ADD Scripts ./Scripts
