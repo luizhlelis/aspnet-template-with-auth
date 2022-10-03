@@ -51,7 +51,7 @@ public class NotFoundResponse : IErrorResponse
 
     public string Type => "https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.4";
 
-    public string Title => "NOT_FOUND_ERROR";
+    public string Title => ErrorCode.NotFound;
 
     public int Status => 404;
 
@@ -70,7 +70,7 @@ public class BadRequestResponse : IErrorResponse
 
     public string Type => "https://tools.ietf.org/html/rfc7231#section-6.5.1";
 
-    public string Title => "BAD_REQUEST_ERROR";
+    public string Title => ErrorCode.BadRequest;
 
     public int Status => 400;
 
